@@ -1,5 +1,5 @@
 # open the .txt file and extract data from it.
-with open("/Users/HASAN/Desktop/Rosalind/rosalind_orf_1_dataset.txt") as Data_file:
+with open("ORF.txt") as Data_file:
     Data = Data_file.readlines()
 DNA_str = ""
 for line in range(1, len(Data)):
